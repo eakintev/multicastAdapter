@@ -14,7 +14,7 @@
 #include <iostream>
 // using namespace std;
 
-#define TEST_PORT 12345
+#define TEST_PORT INADDR_ANY
 #define TEST_GROUP "225.0.0.37"
 
 int main(int argc, char *argv[])
@@ -30,6 +30,8 @@ int main(int argc, char *argv[])
         perror("socket");
         exit(1);
     }
+
+    /* added nonblock flag for socket  */
     const char optval = 1;
     setsockopt(s, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));
 
