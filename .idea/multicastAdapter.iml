@@ -13,12 +13,14 @@
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
           <root url="file://C:/MinGW/mingw32/include" />
           <root url="file://C:/MinGW/include" />
+          <root url="file://C:/boost/boost_1_61_0" />
         </CLASSES>
         <SOURCES>
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
           <root url="file://C:/MinGW/mingw32/include" />
           <root url="file://C:/MinGW/include" />
+          <root url="file://C:/boost/boost_1_61_0" />
         </SOURCES>
       </library>
     </orderEntry>
